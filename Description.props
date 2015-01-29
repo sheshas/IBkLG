@@ -29,10 +29,10 @@ License=The MIT License (MIT)
 Description=In K-NN distance can be weighted distance such as Inverse of the distance or based on similarity. Similarly, here one can associate weights based on the negative logarithm or another intuitive way is to associate a gaussian. A gaussian is assumed around each and every K-Nearest neighbor and weights are associated relative to the distance of the neighbor from the mean in the gaussian. This package extents the base IBk class to add these two kernels to K-NN algorithm.
 
 # Package URL for obtaining the package archive (required)
-PackageURL=https://users.soe.ucsc.edu/~ssreeniv/opensrc/IBkLG/IBkLG.zip?download
+PackageURL=https://github.com/sheshas/IBkLG/blob/master/IBkLG.zip
 
 # URL for further information
-URL=https://users.soe.ucsc.edu/~ssreeniv/opensrc/IBkLG/IBkLG.html
+URL=https://github.com/sheshas/IBkLG
 
 # Dependencies (format: packageName (equality/inequality version_number)
 Depends=weka (>=3.7.11)
